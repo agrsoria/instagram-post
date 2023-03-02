@@ -1,0 +1,46 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+    width: 500px;
+    height: 820px;
+    background-color: white;
+    padding: 5px 5px 5px 5px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+.logo {
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+}
+.usuario {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    padding-left: 50px;
+}
+.iconos {
+    display: flex;
+    justify-content: space-between;
+}
+.izquierda {
+    display: grid;
+    align-items: flex-start;
+}
+.derecha {
+    align-items: flex-end;
+}
+i{
+    font-size: 35px;
+}
+img {
+    width: 505px;
+    height: 505px;
+}
